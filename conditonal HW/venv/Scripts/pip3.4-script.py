@@ -1,4 +1,4 @@
-#!"D:\computer science\programs\while loop\venv\Scripts\python.exe"
+#!"D:\computer science\programs\conditonal HW\venv\Scripts\python.exe"
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==10.0.1','console_scripts','pip3.4'
 __requires__ = 'pip==10.0.1'
 import re

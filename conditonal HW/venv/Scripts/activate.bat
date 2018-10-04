@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=D:\computer science\programs\while loop\venv"
+set "VIRTUAL_ENV=D:\computer science\programs\conditonal HW\venv"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"

@@ -1,4 +1,4 @@
-#!"D:\computer science\programs\while loop\venv\Scripts\python.exe"
+#!"D:\computer science\programs\conditonal HW\venv\Scripts\python.exe"
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==39.1.0','console_scripts','easy_install-3.4'
 __requires__ = 'setuptools==39.1.0'
 import re
