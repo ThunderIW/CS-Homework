@@ -15,7 +15,7 @@ print("-----------------------")
 
 #FOR LOOP
 
-for i in range(-3,8):
+for i in range(8,-3,-1):
     print("Current number:",i)
 
 print("---------------------")
