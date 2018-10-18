@@ -69,16 +69,20 @@ def dice_roll(rolls):
 
 print(dice_roll(6))
 
-#Q4 #not to sure about this one come back 
+#Q4 
 def check(number):
     n = str(number)
-    num_list=list(n)
+    num_list = list(n)
     print(num_list)
 
+    for i in num_list:
+        intger=int(i)
+        print(type(intger))
 
-
-print(check(63))
-
+        if intger%2==0:
+            print('even')
+        if intger%2!=0:
+            print('odd')
 
 
 
