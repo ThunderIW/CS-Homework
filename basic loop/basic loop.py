@@ -47,10 +47,13 @@ def dice_roll(rolls):
     store4=0
     store5=0
     store6=0
+    print(rolls)
     print("Begin rolling")
-    for i in range(1,(rolls+1)):
+    for i in range(1,rolls):
+        print(i)
         import random
         sim=random.randint(1,6)
+        print(sim)
         print("Rolls-->",i)
         if sim==1:
             store1+=1
@@ -65,10 +68,10 @@ def dice_roll(rolls):
         if sim==6:
             store6+=1
 
-    print("----Done rolling----")
+    print("----Done rolling----" )
     print("number of 1-->",store1,"\nnumber of 2-->",store2,"\nnumber of 3-->",store3,"\nnumber of 4-->",store4,"\nnumber of 5-->",store5,"\nnumber of 6-->",store6)
 
-print(dice_roll(2))
+print(dice_roll(rolls))#rolls can be anything you want 
 
 #Q4
 def check(number):
