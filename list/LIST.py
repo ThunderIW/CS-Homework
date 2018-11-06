@@ -200,7 +200,7 @@ def distance(O):
         print(b+1,postive[b],'-',postive[b-1],"difference=",postivediff)
         difference.append(abs(postivediff))
         print(abs(postivediff))
-        if first==postive[b]-postive[b-1]:
+        if first==postive[b]-postive[b-1]: #calulated the difference of sum of each coordinates 
             print(b)
 
 
@@ -212,7 +212,7 @@ def distance(O):
         if difference<first:
             second=first
             first=difference
-        elif difference>first and difference<second:
+        elif difference>first and difference<second:  #finding the two coordinates which is smallest
             second=difference
 
     print(first,second)
